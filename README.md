@@ -1,10 +1,10 @@
-# pro4js-list
-This list is a helper to use pro4js, is really useful when you are new using the pro4js library or if is your first time trying
+# proj4-list
+This list is a helper to use [pro4js](https://github.com/proj4js/proj4js), is really useful when you are new using the [pro4js](https://github.com/proj4js/proj4js) library or if is your first time trying
 to do some coordinate system transformations of values. 
 
 ## Usage
 
-You only need to import the list.min.js inside the code where you are using **pro4js**
+You only need to import the list.min.js inside the code where you are using **proj4js**
 
 ```javascript
     const proj4 = require("proj4")
