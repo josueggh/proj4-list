@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Example",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "proj4": "^2.6.1"
+  }
+}
