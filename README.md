@@ -4,18 +4,21 @@ to do some coordinate system transformations of values.
 
 ## Usage
 
-You only need to import the list.min.js inside the code where you are using **proj4js**
+Install the package
+```bash
+npm i proj4-list
+```
 
 ```javascript
     const proj4 = require("proj4")
-    const proj4list = require("../../list.min");   
+    const proj4List = require('proj4-list');
 ```
 After that, in the proj4.defs method you need to add the element that you're going to use inside an array.
 
 ```javascript
     proj4.defs([
-        proj4list["EPSG:3035"],
-        proj4list["EPSG:4326"]
+       proj4List["EPSG:3035"],
+       proj4List["EPSG:4326"]
     );
 ``` 
 Now you can do the coordinate transformation in the typical way.
