@@ -10,7 +10,7 @@ npm i proj4-list
 ```
 
 ```javascript
-    const proj4 = require("proj4")
+    const proj4 = require("proj4");
     const proj4List = require('proj4-list');
 ```
 After that, in the proj4.defs method you need to add the element that you're going to use inside an array.
@@ -19,11 +19,11 @@ After that, in the proj4.defs method you need to add the element that you're goi
     proj4.defs([
        proj4List["EPSG:3035"],
        proj4List["EPSG:4326"]
-    );
+  ]);
 ``` 
 Now you can do the coordinate transformation in the typical way.
 ```javascript
-proj4("EPSG:3035", "EPSG:4326", [ 4305500, 2674500 ])
+proj4("EPSG:3035", "EPSG:4326", [ 4305500, 2674500 ]);
 ```
 
 ## Available EPSG values
