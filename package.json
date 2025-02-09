@@ -1,17 +1,22 @@
 {
   "name": "proj4-list",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A list of EPSG codes for Proj4.js",
   "main": "dist/list.min.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "terser src/list.js -o dist/list.min.js"
+    "copy:types": "cp index.d.ts dist/index.d.ts",
+    "build": "terser src/list.js -o dist/list.min.js && npm run copy:types"
   },
   "keywords": [
     "EPSG",
     "proj4",
     "geodesy",
     "coordinate systems"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "Josue Gutierrez",
   "license": "ISC",
