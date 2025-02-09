@@ -14565,7 +14565,7 @@ module.exports = {
   ],
   "EPSG:22300": [
     "EPSG:22300",
-    ""
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=33.8833333333333 +lat_2=32.7833333333333 +x_0=2000000.0001016 +y_0=500000.0001016 +ellps=GRS80 +nadgrids=ca_nrc_SK83-98.tif +units=us-ft +no_defs +type=crs"
   ],
   "EPSG:22332": [
     "EPSG:22332",
@@ -16669,7 +16669,7 @@ module.exports = {
   ],
   "EPSG:29701": [
     "EPSG:29701",
-    ""
+    "+proj=labrd +lat_0=-18.9 +lon_0=44.1 +azi=18.9 +k=0.9995 +x_0=400000 +y_0=800000 +ellps=intl +pm=paris +units=m +no_defs +type=crs "
   ],
   "EPSG:29702": [
     "EPSG:29702",

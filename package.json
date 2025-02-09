@@ -1,6 +1,6 @@
 {
   "name": "proj4-list",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A list of EPSG codes for Proj4.js",
   "main": "dist/list.min.js",
   "scripts": {
